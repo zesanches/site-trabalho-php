@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dongle&family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+nav.navbar {
+    margin-left: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;
+}
+
+div.container-nav {
+    width: 99%;
+    display: flex;
+    margin: 0;
+    gap: 3rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+li:hover {
+    transition:  all ease-in-out 0.3s; 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 60px;
+    width: 120px;
+}
+
+div.container-register {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-register {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.img-login {
+    max-height: 760px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-login {
+    padding: 8px;
+    width: 40%;
+    position: absolute;
+    height: 55%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 2px 5px 7px rgba(0,0,0,0.50);
+}
+
+.login-title {
+    margin-top: 10px;
+}
+
+a.register-link {
+    font-weight: bold;
+}
+
+a:hover {
+    transition:  all ease-in-out 0.2s;
+    color: #e95268;
+}
+
+span {
+    color: #e95268;
+}
+
+input {
+    outline: none;
+    border: 1px solid gray;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 90%;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.index-link {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.link-register {
+    text-decoration: underline;
+    margin-top: 10px;
+}

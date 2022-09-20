@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Dongle&family=Rubik:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+@keyframes float {
+    0%{ 
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+nav.navbar {
+    margin-left: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;
+}
+
+div.container-nav {
+    width: 99%;
+    display: flex;
+    margin: 0;
+    gap: 3rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+li:hover {
+    transition: all ease-in-out 0.3s; 
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 60px;
+    width: 120px;
+}
+
+div.container-register {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-register {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.img-product {
+    max-height: 760px;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    margin-top: 30%;
+    padding: 8px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    height: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%, 0 84%);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.content-2 {
+    margin-top: 5%;
+    padding: 8px;
+    width: 40%;
+    left: 0;
+    position: absolute;
+    height: 50%;
+    clip-path: polygon(0% 0%, 100% 0, 100% 83%, 82% 100%, 0% 100%);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.shop-item {
+    animation: infinite float 1.5s ease-in-out;
+}
+ 
+.hyper-x-text {
+    margin-top: -4rem;
+    margin-left: 1rem;
+}
+
+.description {
+    margin-left: 1rem;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a.register-link {
+    font-weight: bold;
+}
+
+a:hover {
+    transition:  all ease-in-out 0.2s;
+    color: #e95268;
+}
+
+a.link-contact {
+    font-weight: bold;
+    font-size: medium;
+}
+
+span {
+    color: #e95268;
+}
